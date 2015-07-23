@@ -1,0 +1,233 @@
+
+/*CAMBIOS*/
+
+#containergrilla{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: #E9EBEE;
+}
+
+#containerNewPost{	
+	border-radius: 7px;
+}
+
+.content_colum_promocion{
+	height: 330px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.content_post_promocion{
+	background: #FFFFFF;
+	height: 100%;
+	opacity: 1;
+}
+
+.content_post_promocion:hover{
+	opacity: 0.8;
+}
+
+.image_background_promociones{
+	width: 100%;
+	height: 226px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image_background_promociones img{
+	height: 100%;
+	width: 100%;
+}
+
+.features_list{
+	height: auto;
+	margin: 10px 15px 10px 15px;
+	text-align: left;
+}
+
+.title_post_promociones{
+	color: #666666;
+	padding-bottom: 5px;
+}
+
+.title_post_promociones p{
+	font-size: 21px;
+	margin-bottom: 0px;
+	line-height: 21px;
+
+}
+
+.subtitle_post_promociones{
+	color: #1565C0;
+	
+}
+
+.subtitle_post_promociones p{
+	margin-bottom: 0px;
+	line-height: 17px;
+	font-size: 12px;
+}
+
+.subtitledetalle_post_promociones{
+	color: #666666;
+	font-size: 12px;
+	margin-top: 1px;
+}
+
+.subtitledetalle_post_promociones p{
+	margin-bottom: 0px;
+	line-height: 17px;
+	font-size: 12px;
+}
+
+.precio_post_promociones{
+
+}
+
+.textprice, .priceold, .pricenow, .btniwant{
+	display: table-cell;
+}
+
+.textprice{
+	font-size: 10px;
+	line-height: 12px;
+	margin: 0;
+	width: 16%;
+ 	text-align: left;
+ 	color: #666666;
+}
+
+.textprice span{
+	position: relative;
+	bottom: 6px;
+}
+
+.priceold{
+	font-size: 12px;
+}
+
+.pricenow{
+	width: 35%;
+	text-align: left;
+	color: #4598F5;
+	font-size: 24px;
+	letter-spacing: -1px;
+	padding-left: 4px;
+}
+
+.pricenow span{
+	position: relative;
+	top: 5px;
+}
+
+.btniwant{
+	 text-align: right;
+}
+
+.btnloquiero{
+	background-color: #FF6200 !important;
+}
+
+#morePostButtonContainer{
+	//margin-bottom: 30px;
+}
+
+#morePostButtonContainer #animationLoadDataCanvas{
+	width: 100%;
+	height: 100px;
+}
+
+#morePostButtonContainer #containerButtonMorePost{
+	position: relative;
+	width: 200px;
+	margin: 15px auto;
+	height: 50px;
+}
+
+#morePostButtonContainer #containerButtonMorePost button{
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+/* contenedor de background de imagenes de grilla*/
+
+.imageDiscountContainer{
+	height: 80%;
+}
+
+.incluyeGridContainer{
+	height: 20%;
+}
+
+.numberDiscount{
+	background-image: url("/../../../../../../vamosya/wp-content/themes/stanleywp-child/assets/images/promo.png");
+	background-size: cover;
+	background-position: center;
+	width: 70px;
+	height: 70px;
+	float: right;
+	position: relative;
+	right: 15px;
+	top: 10px;
+	text-align: center;
+/*	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20eg);*/
+}
+
+/*.numberDiscount:before {
+    content: "";
+    background: #4598F5;
+	width: 60px;
+    height: 60px;
+	float: right;
+	position: relative;
+	right: 2px;
+	top: 2px;
+	text-align: center;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135eg);
+}*/
+
+.discount{
+	position: absolute;
+	top: 17px;
+	/* bottom: 70%; */
+	left: 5px;
+	font-size: 22px;
+	/* float: left; */
+	color: #fff;
+	/* -webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20eg); */
+}
+
+.imagesIncluye{
+	margin-left: 15px;
+}
+
+.imagesIncluye img.gridIconIncluye{
+	width: auto;
+	height: auto;
+	padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

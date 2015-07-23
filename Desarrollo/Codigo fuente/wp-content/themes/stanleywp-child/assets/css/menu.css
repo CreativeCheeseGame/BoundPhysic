@@ -1,0 +1,129 @@
+
+#newsletter_menu{
+	float: right;
+	margin: 8px 0;
+}
+
+
+header #header_vamosya{
+	height: 81px !important;
+	background-color: rgb(21, 101, 192);
+}
+
+#header_vamosya nav#nav_vamosya{
+	position: fixed;
+	z-index: 8000;
+	width: 100%;
+}
+
+#header_vamosya nav#nav_vamosya .navbar-inverse{
+	padding: 15px 0px;
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.navbar-inverse {
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+div.navbar-header > #logo > a > img{
+	position: absolute;
+	bottom: 0px;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.navbar-inverse .navbar-collapse > #menu-menu-1{
+	position: relative;
+	left: 30%;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-family: Avenir Next LT Pro Bold;
+	height: 50px;
+	width: 70%;
+}
+
+.navbar-inverse .navbar-collapse > #menu-menu-1 li{
+	margin: 0 30px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #666666 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #4598F5 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: transparent;
+  color: #4598F5 !important;
+}
+
+#followbuttoms{
+	height: 30px;
+	text-align: right;
+	background-color: #A6CEEB;
+	//background-image: url("../images/aviones74x30.png");
+	//background-repeat: repeat-x;
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+#followbuttoms #container-follow{
+	height: 100%;
+}
+
+.social_links {
+	height: 100%;
+} 
+
+#followme{
+	position: relative;
+	bottom: 7px;
+	color: rgb(43, 74, 122);
+}
+
+.social_links a.fb {
+	background-image: url("/../../../../../../vamosya/wp-content/uploads/2015/03/facebook_boton.png");
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+}
+
+.social_links a {
+	margin-left: 10px;
+	display: inline-block;
+}
+
+ul#menu-menu-1 li:last-child{
+	//margin: 0 77px !important;
+	float: right;
+	margin: 0 !important;
+} 
+
+ul#menu-menu-1 li:last-child a{
+	color: #5696CD !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	position: relative;
+  	bottom: 3px;
+} 
+
+ul#menu-menu-1 li:last-child a:hover{
+	color: #1C2535 !important;
+} 
+
+ul#menu-menu-1 li:last-child a img{
+ 	padding-left: 14px;
+} 

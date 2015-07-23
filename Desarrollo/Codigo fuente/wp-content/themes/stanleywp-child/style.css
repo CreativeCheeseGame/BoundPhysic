@@ -1,0 +1,378 @@
+/*
+Theme Name: StanleyWP Child
+Theme URI: http://gentsthemes.com
+Description: Responsive WordPress theme with all the Twitter Bootstrap elements and features.
+Author: Raskit
+Author URI: http://gentsthemes.com
+Template: stanleywp
+Version: 3.0.3
+Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, bootstrap, twitter
+
+Copyright (C) 2011-2014 Gents Themes
+License: GNU General Public License, version 3 (GPLv3)
+License URI: license.txt
+	
+CREATE CHILD THEME.
+See: http://codex.wordpress.org/Child_Themes
+	
+CSS Rules: Sorted alphabetically for better organization.
+
+*/
+
+@import url('../stanleywp/style.css'); 
+
+
+  /* Media queries vamos ya!*/
+
+@media only screen and (min-width: 300px){
+  	header#header_vamosya{
+		min-height: 81px;
+	}
+
+	#container-facebook-banner{
+		margin: 25px auto;
+		padding: 0;
+		width: 350px;
+	}
+
+	#contentface, .content_fb {
+	    height: auto;
+	    background-color: #fff;
+	}
+
+	.content_fb div {
+	    margin: 0;
+	}
+
+	#button-newsletter-vamosya{
+		height: 90px;
+		width: 230px;
+		margin: 0px auto;
+	}
+
+	.slideCategoryInfo {
+	    top: 36%;
+	    font-size: 26px;
+	}
+
+	.input {
+	    max-width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 359px){
+
+	div.navbar-header > #logo > a > img {
+    	width: 230px !important;
+	}
+
+	.textprice {
+	    font-size: 8px;
+	}
+
+	.pricenow {
+	    width: 42%;
+	}
+
+	.priceold {
+	    font-size: 11px;
+	    position: relative;
+	    bottom: 7px;
+	}
+
+}
+
+@media only screen and (max-width: 419px){
+
+	.content_colum_promocion {
+	    height: 345px;
+	}
+
+}
+
+@media only screen and (min-width:300px) and (max-width:539px){
+
+	#search_container #search {
+	    top: 230px;
+	}
+
+	.infoAdsContainer {
+	    top: 50px;
+	}
+}
+
+ /* Media queries vamos ya! 419px*/
+@media only screen and (max-width: 767px){
+
+	span.nextmainSliderContainer, span.prevmainSliderContainer {
+	    top: 0px !important;
+	    display: none !important;
+	}
+
+	.navbar-inverse .navbar-collapse > #menu-menu-1 {
+		margin: 0;
+	    width: 100%;
+	}
+
+	ul#menu-menu-1 li#menu-item-184 a {
+	    border-bottom: 1px solid #fff !important;
+	}
+
+	ul#menu-menu-1 li#menu-item-20 a {
+	    border-bottom: 1px solid #fff !important;
+	}
+
+	div.navbar-header > #logo > a > img {
+	    bottom: 6px;
+	    height: 60px;
+	    width: 260px;
+	    position: relative;
+	    left: 5%;
+	    bottom: 5px;
+	}
+
+	#navbar-static-vamosya .container .navbar-collapse.navbar-responsive-collapse.in{
+		border-color: #1565C0;
+	}
+
+	#navbar-static-vamosya .container .navbar-collapse.navbar-responsive-collapse.in #menu-menu-1 .menu-item a{
+		border-bottom: 1px solid rgb(45, 117, 198);
+	}
+
+	ul#menu-menu-1 li:last-child a {
+	    border-bottom: 1px solid #1565C0 !important;
+	}
+
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	    border-color: #1565C0 !important;
+	}
+
+	.navbar-inverse .navbar-collapse > #menu-menu-1 {
+	    height: auto;
+	    text-align: center;
+	    left: 0;
+	}
+	#header_vamosya nav#nav_vamosya .navbar-inverse {
+	    padding: 15px 0px 0px;
+	}
+
+	.navbar-inverse .navbar-toggle{
+		background-color: #00B8E2;
+	}
+
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	    background-color: #00B8E2;/*color del boton del menu color celeste*/
+	    border-color: #00B8E2;
+	}
+
+	#search_container #search #searchBackgroundContainer {
+	    width: 90%;
+	}
+
+	#searchBackgroundContainer img {
+	    width: 25px;
+	    margin-top: 52px;
+	}
+
+	#searchBackgroundContainer .searchCity {
+	    margin-left: 0;
+	}
+
+	.tableContainer {
+	    width: 90%;
+	}
+
+	.titleContent {
+	    font-size: 20px;
+	}
+
+	.descriptionContent {
+	    font-size: 16px;
+	    width: 100%;
+	}
+
+	#search_container {
+		height: 330px !important;
+	}
+
+	span.nextmainSliderContainer, span.prevmainSliderContainer {
+		top: 22px;
+	}
+
+	.linkPostContent {
+	    bottom: 42px;
+	    right: 15px;
+	}
+
+	.slideCategoryContainer{
+		//width: 42% !important;
+	}
+
+	.title_post_promociones p {
+	    font-size: 18px;
+	}
+
+	.priceold {
+	    font-size: 11px;
+	}
+
+	.pricenow {
+	    font-size: 22px;
+	}
+
+}
+
+@media only screen and (min-width:420px) and (max-width: 767px){
+
+	.content_colum_promocion {
+	    width: 420px !important;
+	    margin: 15px auto;
+	}
+
+	.title_post_promociones p {
+	    font-size: 21px;
+	}
+
+	.priceold {
+	    font-size: 12px;
+	}
+
+	.pricenow {
+	    font-size: 24px;
+	}
+}
+
+@media only screen and (min-width:420px) and (max-width: 539px){
+	.titleContent {
+	    font-size: 23px;
+	}
+
+	.descriptionContent {
+	    font-size: 18px;
+	}
+
+	span.nextmainSliderContainer, span.prevmainSliderContainer {
+	    top: 0px;
+	    height: 78%;
+	}
+}
+
+@media only screen and (min-width:540px) and (max-width: 767px){
+	
+	#search_container {
+	    height: 380px !important;
+	}
+
+	.titleContent {
+	    font-size: 31px;
+	}
+
+	.descriptionContent {
+	    font-size: 26px;
+	}
+
+	span.nextmainSliderContainer, span.prevmainSliderContainer {
+	    top: 0px;
+	}
+
+	.infoAdsContainer {
+	    top: 62%;
+	}
+
+	span.nextmainSliderContainer, span.prevmainSliderContainer {
+	    height: 93%;
+	}
+
+	#search_container #search {
+	    top: 260px;
+	}
+
+	.infoAdsContainer {
+	    top: 50px;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991px){
+	#gform_wrapper_2 #gform_2 #gform_fields_2 .gfield .ginput_container{
+	    width: 100% !important;
+	}	
+
+	#gform_wrapper_2 #gform_2 #gform_fields_2 .gfield .ginput_container input.medium{
+	    width: 100% !important;
+	}
+
+	.youtubeContainer {
+	    top: 15px;
+	}
+}
+
+@media only screen and (min-width:768px){
+
+	div.navbar-header > #logo > a > img {
+		width: 210px;
+		position: absolute;
+		bottom: 12px;
+	}
+
+	.navbar-inverse .navbar-collapse > #menu-menu-1 li {
+	    margin: 0;
+	}
+
+	.infoAdsContainer {
+	    top: 5%;
+	}
+
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199px){
+
+	.textprice {
+	    font-size: 8px;
+	}
+
+	.content_colum_promocion {
+	    height: 350px;
+	}
+
+	.pricenow {
+		width: 42%;
+		font-size: 23px;
+	}
+
+	.priceold {
+	    font-size: 11px;
+	    position: relative;
+	    bottom: 7px;
+	}
+
+	#container-facebook-banner {
+	    padding-left: 10%;
+	}
+}
+
+@media only screen and (min-width:1200px){
+
+	.navbar-inverse .navbar-collapse > #menu-menu-1 li {
+	    margin: 0px 30px;
+	}
+
+	#container-facebook-banner {
+	    padding-left: 10%;
+	}
+
+	div.navbar-header > #logo > a > img {
+		width: auto;
+	    position: absolute;
+	    bottom: 0px;
+	    transition: height 0.3s ease 0s;
+	}
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1300px){
+
+	.navbar-inverse .navbar-collapse > #menu-menu-1 {
+	    left: 35%;
+	    width: 65%;
+	}
+}

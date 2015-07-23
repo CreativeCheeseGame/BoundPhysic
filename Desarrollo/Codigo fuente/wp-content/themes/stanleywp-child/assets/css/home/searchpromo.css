@@ -1,0 +1,134 @@
+#search_container #search{
+	position: absolute;
+	z-index: 21;
+	width: 100%;
+	top: 61%;
+}
+
+#search_container #search #searchBackgroundContainer{
+	width: 50%;
+	margin: 0 auto;
+	height: 105px;
+	background: rgba(255,255,255,0.6);
+	border: 2px solid white;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#searchBackgroundContainer input{
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+}
+
+#searchBackgroundContainer img{
+	width: 40px;
+	float: left;
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 1%;
+}
+
+#searchBackgroundContainer .searchCity{
+	margin-top: 10px;
+	margin-left: 25px;
+	color: rgb(69, 152, 245);
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+
+/* TABLE */
+
+.tableContainer{
+	width: 40%;
+	margin: 0 auto;
+	border: 5px solid rgba(0, 0, 0, 0.47);
+	margin-top: -18px;
+}
+
+.tableContainer table{
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.rowHeaderSearchList{
+	background-color: #C2C2C2;
+	color: #505050;
+	font-size: 11px;
+	padding: 7px;
+	font-weight: bold;
+}
+
+.rowSearchedPromotions{
+	margin-left: 10px;
+	color: #474646;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.buttonSearchMore{
+	width: 100%;
+}
+
+.headerCellCityTableSearch{
+	background: #fff;
+	padding: 0 0 0 30px !important;
+}
+
+.headerCityTableSearch div{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+.headerCityTableSearch strong{
+	display: inline-block;
+	font-size: 11px;
+	margin-right: 10px;
+}
+
+.headerCityTableSearch img{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 17px;
+}
+
+.rowSearchedPromotions div{
+	margin-top: 5px;
+}
+
+.rowSearchedPromotions  .paisCellRow{
+	float: left;
+	margin-left: 6px;
+	font-weight: bold;
+}
+
+.rowSearchedPromotions .ciudadCellRow{
+	float: left;
+	margin-left: 14px;
+}
+
+.rowSearchedPromotions  .promotionCellRow{
+	float: left;
+}
+
+#containerTableSearch{
+	padding: 8px;
+  	background-color: white;
+}
+
+#tableSearched tbody tr{
+	height: 30px;
+}
+
+#tableSearched tbody tr td{
+	padding: 0px !important; 
+}
+
+.promotionHover td:hover{
+	border-top: 1px solid #E5E5E5;
+	background-color: #E5E5E5 !important;
+}
+

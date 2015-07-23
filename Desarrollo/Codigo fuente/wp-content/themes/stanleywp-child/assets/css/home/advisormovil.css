@@ -1,0 +1,30 @@
+#contentface{
+	background: #242222;
+	height: 500px;
+}
+
+.youtubeContainer{
+	top: 90px;
+}
+
+.content_fb_barner{
+	
+}
+.content_barner{
+	height: 500px;
+}
+
+.content_barner img{
+  height: 500px;
+  margin: auto auto;
+}
+
+.content_fb{
+	height: 500px;
+}
+
+.content_fb div{
+	background: #fff;
+	margin: 25px 25%;
+}
+

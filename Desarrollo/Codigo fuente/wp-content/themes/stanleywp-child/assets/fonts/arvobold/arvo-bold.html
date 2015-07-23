@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ArvoBold WebFont</title>
+    <link rel="stylesheet" type="text/css" href="arvo-bold.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="arvobold-"]:before, [class*=" arvobold-"]:before, [class^="arvobold-"]:after, [class*=" arvobold-"]:after {
+        font-family: ArvoBold;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"ArvoBold";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"ArvoBold";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.arvobold.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/arvo-bold.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;arvobold-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;arvobold-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon arvobold-A"></div>
+		<div class="class-name">.arvobold-A</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/a-best-test-result_43567">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-B"></div>
+		<div class="class-name">.arvobold-B</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-C"></div>
+		<div class="class-name">.arvobold-C</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/c-test-result-interface-symbol-with-text-lines_43615">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-D"></div>
+		<div class="class-name">.arvobold-D</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/d-education-test-note-of-qualification_43644">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-E"></div>
+		<div class="class-name">.arvobold-E</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/e-plus-on-school-test-result_43700">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-F"></div>
+		<div class="class-name">.arvobold-F</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/f-plus-school-rating-paper-interface-symbol_43008">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-G"></div>
+		<div class="class-name">.arvobold-G</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/g-logo-circle_7719">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-H"></div>
+		<div class="class-name">.arvobold-H</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/symbol-h-from-helicopter-parking_10130">Scott de Jonge</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-I"></div>
+		<div class="class-name">.arvobold-I</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-J"></div>
+		<div class="class-name">.arvobold-J</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-K"></div>
+		<div class="class-name">.arvobold-K</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-L"></div>
+		<div class="class-name">.arvobold-L</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/l-of-scrabble-with-1-point_8560">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-M"></div>
+		<div class="class-name">.arvobold-M</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/letter-m_2041">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-N"></div>
+		<div class="class-name">.arvobold-N</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-O"></div>
+		<div class="class-name">.arvobold-O</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-P"></div>
+		<div class="class-name">.arvobold-P</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/p-logo-circle_8173">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Q"></div>
+		<div class="class-name">.arvobold-Q</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/q_4307">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-R"></div>
+		<div class="class-name">.arvobold-R</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-S"></div>
+		<div class="class-name">.arvobold-S</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-T"></div>
+		<div class="class-name">.arvobold-T</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-U"></div>
+		<div class="class-name">.arvobold-U</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/u-shaped-magnet-outline_23961">Icomoon</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-V"></div>
+		<div class="class-name">.arvobold-V</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/vimeo_3500">Daniel Bruce</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-W"></div>
+		<div class="class-name">.arvobold-W</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-X"></div>
+		<div class="class-name">.arvobold-X</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Y"></div>
+		<div class="class-name">.arvobold-Y</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/y_3761">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Z"></div>
+		<div class="class-name">.arvobold-Z</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-underscore"></div>
+		<div class="class-name">.arvobold-underscore</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-a"></div>
+		<div class="class-name">.arvobold-a</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/a-best-test-result_43567">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-b"></div>
+		<div class="class-name">.arvobold-b</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-c"></div>
+		<div class="class-name">.arvobold-c</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/c-test-result-interface-symbol-with-text-lines_43615">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-d"></div>
+		<div class="class-name">.arvobold-d</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/d-education-test-note-of-qualification_43644">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-e"></div>
+		<div class="class-name">.arvobold-e</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/e-plus-on-school-test-result_43700">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-f"></div>
+		<div class="class-name">.arvobold-f</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/f-plus-school-rating-paper-interface-symbol_43008">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-g"></div>
+		<div class="class-name">.arvobold-g</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/g-logo-circle_7719">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-h"></div>
+		<div class="class-name">.arvobold-h</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/symbol-h-from-helicopter-parking_10130">Scott de Jonge</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-i"></div>
+		<div class="class-name">.arvobold-i</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-j"></div>
+		<div class="class-name">.arvobold-j</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-k"></div>
+		<div class="class-name">.arvobold-k</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-l"></div>
+		<div class="class-name">.arvobold-l</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/l-of-scrabble-with-1-point_8560">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-m"></div>
+		<div class="class-name">.arvobold-m</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/letter-m_2041">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-n"></div>
+		<div class="class-name">.arvobold-n</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-o"></div>
+		<div class="class-name">.arvobold-o</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-p"></div>
+		<div class="class-name">.arvobold-p</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/p-logo-circle_8173">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-q"></div>
+		<div class="class-name">.arvobold-q</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/q_4307">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-r"></div>
+		<div class="class-name">.arvobold-r</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-s"></div>
+		<div class="class-name">.arvobold-s</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-t"></div>
+		<div class="class-name">.arvobold-t</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-u"></div>
+		<div class="class-name">.arvobold-u</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/u-shaped-magnet-outline_23961">Icomoon</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-v"></div>
+		<div class="class-name">.arvobold-v</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/vimeo_3500">Daniel Bruce</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-w"></div>
+		<div class="class-name">.arvobold-w</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-x"></div>
+		<div class="class-name">.arvobold-x</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-y"></div>
+		<div class="class-name">.arvobold-y</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/y_3761">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-z"></div>
+		<div class="class-name">.arvobold-z</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-comma"></div>
+		<div class="class-name">.arvobold-comma</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-hyphen"></div>
+		<div class="class-name">.arvobold-hyphen</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-period"></div>
+		<div class="class-name">.arvobold-period</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-zero"></div>
+		<div class="class-name">.arvobold-zero</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/zero-emission-badge_25097">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-one"></div>
+		<div class="class-name">.arvobold-one</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/one-free_2864">Icons8</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-two"></div>
+		<div class="class-name">.arvobold-two</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/two-computer-screens_67170">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-three"></div>
+		<div class="class-name">.arvobold-three</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/three-books-one-above-another_3627">Icons8</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-four"></div>
+		<div class="class-name">.arvobold-four</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/four-fingers_2403">Icons8</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-five"></div>
+		<div class="class-name">.arvobold-five</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/five-birthday-cake-layers-with-candles_11176">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-six"></div>
+		<div class="class-name">.arvobold-six</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/six-fingers-two-hands_4283">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-seven"></div>
+		<div class="class-name">.arvobold-seven</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/seven-piano-keys_11335">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-eight"></div>
+		<div class="class-name">.arvobold-eight</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/number-8_1879">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-nine"></div>
+		<div class="class-name">.arvobold-nine</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/nine-tiles-square_8513">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-exclam"></div>
+		<div class="class-name">.arvobold-exclam</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-percent"></div>
+		<div class="class-name">.arvobold-percent</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/percent-off_9006">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ampersand"></div>
+		<div class="class-name">.arvobold-ampersand</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/ampersand_3806">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quotesingle"></div>
+		<div class="class-name">.arvobold-quotesingle</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quotedbl"></div>
+		<div class="class-name">.arvobold-quotedbl</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-parenleft"></div>
+		<div class="class-name">.arvobold-parenleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-parenright"></div>
+		<div class="class-name">.arvobold-parenright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-asterisk"></div>
+		<div class="class-name">.arvobold-asterisk</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/asterisk_4193">Adam Whitcroft</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-plus"></div>
+		<div class="class-name">.arvobold-plus</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/add-button_1881">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-slash"></div>
+		<div class="class-name">.arvobold-slash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/slash-and-dot-sketch-variant_37278">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-at"></div>
+		<div class="class-name">.arvobold-at</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/at-circular_2574">Stephen Hutchings</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-bracketleft"></div>
+		<div class="class-name">.arvobold-bracketleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-backslash"></div>
+		<div class="class-name">.arvobold-backslash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-bracketright"></div>
+		<div class="class-name">.arvobold-bracketright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-bullet"></div>
+		<div class="class-name">.arvobold-bullet</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/bullet_4167">Adam Whitcroft</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-paragraph"></div>
+		<div class="class-name">.arvobold-paragraph</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/paragraph-overview-pages_2982">Icons8</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-germandbls"></div>
+		<div class="class-name">.arvobold-germandbls</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-registered"></div>
+		<div class="class-name">.arvobold-registered</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/registered-sign_35073">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-copyright"></div>
+		<div class="class-name">.arvobold-copyright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/copyright-letter_8571">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-guillemotleft"></div>
+		<div class="class-name">.arvobold-guillemotleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-guillemotright"></div>
+		<div class="class-name">.arvobold-guillemotright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ellipsis"></div>
+		<div class="class-name">.arvobold-ellipsis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/ellipsis-three-vertical-squares-menu-interface-symbol_39422">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-endash"></div>
+		<div class="class-name">.arvobold-endash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-emdash"></div>
+		<div class="class-name">.arvobold-emdash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quotedblleft"></div>
+		<div class="class-name">.arvobold-quotedblleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quotedblright"></div>
+		<div class="class-name">.arvobold-quotedblright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quoteleft"></div>
+		<div class="class-name">.arvobold-quoteleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quoteright"></div>
+		<div class="class-name">.arvobold-quoteright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-guilsinglleft"></div>
+		<div class="class-name">.arvobold-guilsinglleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-guilsinglright"></div>
+		<div class="class-name">.arvobold-guilsinglright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-plusminus"></div>
+		<div class="class-name">.arvobold-plusminus</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-minus"></div>
+		<div class="class-name">.arvobold-minus</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/minus_4015">Adam Whitcroft</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-numbersign"></div>
+		<div class="class-name">.arvobold-numbersign</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-less"></div>
+		<div class="class-name">.arvobold-less</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-equal"></div>
+		<div class="class-name">.arvobold-equal</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/equal-outline_2725">Stephen Hutchings</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-greater"></div>
+		<div class="class-name">.arvobold-greater</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/greater-than-and-single-line-not-equal-to-maths-sign_43268">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-question"></div>
+		<div class="class-name">.arvobold-question</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/face-with-a-question-mark_1954">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-dollar"></div>
+		<div class="class-name">.arvobold-dollar</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/safe-money_67118">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-braceleft"></div>
+		<div class="class-name">.arvobold-braceleft</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-bar"></div>
+		<div class="class-name">.arvobold-bar</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/bar-graphic_3703">Daniel Bruce</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-braceright"></div>
+		<div class="class-name">.arvobold-braceright</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-asciitilde"></div>
+		<div class="class-name">.arvobold-asciitilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-sterling"></div>
+		<div class="class-name">.arvobold-sterling</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/sterling-pound-sign-of-money_44614">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-cent"></div>
+		<div class="class-name">.arvobold-cent</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/cent-currency_9497">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-multiply"></div>
+		<div class="class-name">.arvobold-multiply</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-colon"></div>
+		<div class="class-name">.arvobold-colon</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/costa-rican-colon_66219">Vecree</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-semicolon"></div>
+		<div class="class-name">.arvobold-semicolon</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-circumflex"></div>
+		<div class="class-name">.arvobold-circumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-tilde"></div>
+		<div class="class-name">.arvobold-tilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/tilde_4031">Adam Whitcroft</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-macron"></div>
+		<div class="class-name">.arvobold-macron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-breve"></div>
+		<div class="class-name">.arvobold-breve</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-cedilla"></div>
+		<div class="class-name">.arvobold-cedilla</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-hungarumlaut"></div>
+		<div class="class-name">.arvobold-hungarumlaut</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ogonek"></div>
+		<div class="class-name">.arvobold-ogonek</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-caron"></div>
+		<div class="class-name">.arvobold-caron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-degree"></div>
+		<div class="class-name">.arvobold-degree</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-grave"></div>
+		<div class="class-name">.arvobold-grave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-acute"></div>
+		<div class="class-name">.arvobold-acute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/acute-angle-of-45-degrees_43609">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-dieresis"></div>
+		<div class="class-name">.arvobold-dieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ring"></div>
+		<div class="class-name">.arvobold-ring</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/ring-commitment-wedding_10488">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-dotaccent"></div>
+		<div class="class-name">.arvobold-dotaccent</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-dotlessi"></div>
+		<div class="class-name">.arvobold-dotlessi</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-AE"></div>
+		<div class="class-name">.arvobold-AE</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ae"></div>
+		<div class="class-name">.arvobold-ae</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-thorn"></div>
+		<div class="class-name">.arvobold-thorn</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Thorn"></div>
+		<div class="class-name">.arvobold-Thorn</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-onesuperior"></div>
+		<div class="class-name">.arvobold-onesuperior</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-twosuperior"></div>
+		<div class="class-name">.arvobold-twosuperior</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-threesuperior"></div>
+		<div class="class-name">.arvobold-threesuperior</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ordmasculine"></div>
+		<div class="class-name">.arvobold-ordmasculine</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ordfeminine"></div>
+		<div class="class-name">.arvobold-ordfeminine</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-currency"></div>
+		<div class="class-name">.arvobold-currency</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/currency-grivna-symbol_9162">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-logicalnot"></div>
+		<div class="class-name">.arvobold-logicalnot</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-mu"></div>
+		<div class="class-name">.arvobold-mu</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-periodcentered"></div>
+		<div class="class-name">.arvobold-periodcentered</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-exclamdown"></div>
+		<div class="class-name">.arvobold-exclamdown</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-questiondown"></div>
+		<div class="class-name">.arvobold-questiondown</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-asciicircum"></div>
+		<div class="class-name">.arvobold-asciicircum</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-brokenbar"></div>
+		<div class="class-name">.arvobold-brokenbar</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-fraction"></div>
+		<div class="class-name">.arvobold-fraction</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-onequarter"></div>
+		<div class="class-name">.arvobold-onequarter</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-onehalf"></div>
+		<div class="class-name">.arvobold-onehalf</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-threequarters"></div>
+		<div class="class-name">.arvobold-threequarters</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Oslash"></div>
+		<div class="class-name">.arvobold-Oslash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-oslash"></div>
+		<div class="class-name">.arvobold-oslash</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Eth"></div>
+		<div class="class-name">.arvobold-Eth</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-eth"></div>
+		<div class="class-name">.arvobold-eth</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Agrave"></div>
+		<div class="class-name">.arvobold-Agrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Aacute"></div>
+		<div class="class-name">.arvobold-Aacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Acircumflex"></div>
+		<div class="class-name">.arvobold-Acircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Atilde"></div>
+		<div class="class-name">.arvobold-Atilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Adieresis"></div>
+		<div class="class-name">.arvobold-Adieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Aring"></div>
+		<div class="class-name">.arvobold-Aring</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Egrave"></div>
+		<div class="class-name">.arvobold-Egrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Eacute"></div>
+		<div class="class-name">.arvobold-Eacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Edieresis"></div>
+		<div class="class-name">.arvobold-Edieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ecircumflex"></div>
+		<div class="class-name">.arvobold-Ecircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ccedilla"></div>
+		<div class="class-name">.arvobold-Ccedilla</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ccaron"></div>
+		<div class="class-name">.arvobold-Ccaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Igrave"></div>
+		<div class="class-name">.arvobold-Igrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Iacute"></div>
+		<div class="class-name">.arvobold-Iacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Icircumflex"></div>
+		<div class="class-name">.arvobold-Icircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Idieresis"></div>
+		<div class="class-name">.arvobold-Idieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ntilde"></div>
+		<div class="class-name">.arvobold-Ntilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ograve"></div>
+		<div class="class-name">.arvobold-Ograve</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Oacute"></div>
+		<div class="class-name">.arvobold-Oacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ocircumflex"></div>
+		<div class="class-name">.arvobold-Ocircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Otilde"></div>
+		<div class="class-name">.arvobold-Otilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Odieresis"></div>
+		<div class="class-name">.arvobold-Odieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Uacute"></div>
+		<div class="class-name">.arvobold-Uacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ucircumflex"></div>
+		<div class="class-name">.arvobold-Ucircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Udieresis"></div>
+		<div class="class-name">.arvobold-Udieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Yacute"></div>
+		<div class="class-name">.arvobold-Yacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-agrave"></div>
+		<div class="class-name">.arvobold-agrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-aacute"></div>
+		<div class="class-name">.arvobold-aacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-acircumflex"></div>
+		<div class="class-name">.arvobold-acircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-atilde"></div>
+		<div class="class-name">.arvobold-atilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-adieresis"></div>
+		<div class="class-name">.arvobold-adieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-aring"></div>
+		<div class="class-name">.arvobold-aring</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-egrave"></div>
+		<div class="class-name">.arvobold-egrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-eacute"></div>
+		<div class="class-name">.arvobold-eacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-edieresis"></div>
+		<div class="class-name">.arvobold-edieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ecircumflex"></div>
+		<div class="class-name">.arvobold-ecircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ccedilla"></div>
+		<div class="class-name">.arvobold-ccedilla</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ccaron"></div>
+		<div class="class-name">.arvobold-ccaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-iacute"></div>
+		<div class="class-name">.arvobold-iacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-igrave"></div>
+		<div class="class-name">.arvobold-igrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-icircumflex"></div>
+		<div class="class-name">.arvobold-icircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-idieresis"></div>
+		<div class="class-name">.arvobold-idieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ntilde"></div>
+		<div class="class-name">.arvobold-ntilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ograve"></div>
+		<div class="class-name">.arvobold-ograve</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-oacute"></div>
+		<div class="class-name">.arvobold-oacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ocircumflex"></div>
+		<div class="class-name">.arvobold-ocircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-otilde"></div>
+		<div class="class-name">.arvobold-otilde</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-odieresis"></div>
+		<div class="class-name">.arvobold-odieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-uacute"></div>
+		<div class="class-name">.arvobold-uacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ucircumflex"></div>
+		<div class="class-name">.arvobold-ucircumflex</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-udieresis"></div>
+		<div class="class-name">.arvobold-udieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-yacute"></div>
+		<div class="class-name">.arvobold-yacute</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-yen"></div>
+		<div class="class-name">.arvobold-yen</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-section"></div>
+		<div class="class-name">.arvobold-section</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/file_9866">Austin Andrews</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ugrave"></div>
+		<div class="class-name">.arvobold-Ugrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ugrave"></div>
+		<div class="class-name">.arvobold-ugrave</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Scaron"></div>
+		<div class="class-name">.arvobold-Scaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-scaron"></div>
+		<div class="class-name">.arvobold-scaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Zcaron"></div>
+		<div class="class-name">.arvobold-Zcaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-zcaron"></div>
+		<div class="class-name">.arvobold-zcaron</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-Ydieresis"></div>
+		<div class="class-name">.arvobold-Ydieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-ydieresis"></div>
+		<div class="class-name">.arvobold-ydieresis</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-divide"></div>
+		<div class="class-name">.arvobold-divide</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/divide-symbol_2693">Stephen Hutchings</a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-twoinferior"></div>
+		<div class="class-name">.arvobold-twoinferior</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-fourinferior"></div>
+		<div class="class-name">.arvobold-fourinferior</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon arvobold-quotedblbase"></div>
+		<div class="class-name">.arvobold-quotedblbase</div><div class="author-name">Author: <a href="http://www.arvobold.com/free-icon/_"></a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.arvobold.com">arvobold.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>, <a href="http://"></a>, <a href="http://www.scottdejonge.com">Scott de Jonge</a>, <a href="http://www.templarian.com">Austin Andrews</a>, <a href="http://www.icomoon.io">Icomoon</a>, <a href="http://www.danielbruce.se">Daniel Bruce</a>, <a href="http://www.icons8.com">Icons8</a>, <a href="http://www.adamwhitcroft.com">Adam Whitcroft</a>, <a href="http://www.typicons.com">Stephen Hutchings</a>, <a href="http://vecree.com">Vecree</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.arvobold.com&quot;&gt;arvobold.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;&lt;/a&gt;, &lt;a href=&quot;http://www.scottdejonge.com&quot;&gt;Scott de Jonge&lt;/a&gt;, &lt;a href=&quot;http://www.templarian.com&quot;&gt;Austin Andrews&lt;/a&gt;, &lt;a href=&quot;http://www.icomoon.io&quot;&gt;Icomoon&lt;/a&gt;, &lt;a href=&quot;http://www.danielbruce.se&quot;&gt;Daniel Bruce&lt;/a&gt;, &lt;a href=&quot;http://www.icons8.com&quot;&gt;Icons8&lt;/a&gt;, &lt;a href=&quot;http://www.adamwhitcroft.com&quot;&gt;Adam Whitcroft&lt;/a&gt;, &lt;a href=&quot;http://www.typicons.com&quot;&gt;Stephen Hutchings&lt;/a&gt;, &lt;a href=&quot;http://vecree.com&quot;&gt;Vecree&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;arvobold-A&quot;&gt;&lt;/i&gt; <i class="arvobold-A"></i></p><p>&lt;i class=&quot;arvobold-B&quot;&gt;&lt;/i&gt; <i class="arvobold-B"></i></p><p>&lt;i class=&quot;arvobold-C&quot;&gt;&lt;/i&gt; <i class="arvobold-C"></i></p><p>&lt;i class=&quot;arvobold-D&quot;&gt;&lt;/i&gt; <i class="arvobold-D"></i></p><p>&lt;i class=&quot;arvobold-E&quot;&gt;&lt;/i&gt; <i class="arvobold-E"></i></p></div><div class="image"><p>&lt;span class=&quot;arvobold-F&quot;&gt;&lt;/span&gt; <span class="arvobold-F"></span></p><p>&lt;span class=&quot;arvobold-G&quot;&gt;&lt;/span&gt; <span class="arvobold-G"></span></p><p>&lt;span class=&quot;arvobold-H&quot;&gt;&lt;/span&gt; <span class="arvobold-H"></span></p><p>&lt;span class=&quot;arvobold-I&quot;&gt;&lt;/span&gt; <span class="arvobold-I"></span></p><p>&lt;span class=&quot;arvobold-J&quot;&gt;&lt;/span&gt; <span class="arvobold-J"></span></p></div><div class="image"><p>&lt;span class=&quot;arvobold-K&quot;&gt;&lt;/span&gt; <span class="arvobold-K"></span></p><p>&lt;i class=&quot;arvobold-L&quot;&gt;&lt;/i&gt; <i class="arvobold-L"></i></p><p>&lt;i class=&quot;arvobold-M&quot;&gt;&lt;/i&gt; <i class="arvobold-M"></i></p><p>&lt;i class=&quot;arvobold-N&quot;&gt;&lt;/i&gt; <i class="arvobold-N"></i></p><p>&lt;i class=&quot;arvobold-O&quot;&gt;&lt;/i&gt; <i class="arvobold-O"></i></p></div><div class="image"><p>&lt;span class=&quot;arvobold-P&quot;&gt;&lt;/span&gt; <span class="arvobold-P"></span></p><p>&lt;span class=&quot;arvobold-Q&quot;&gt;&lt;/span&gt; <span class="arvobold-Q"></span></p><p>&lt;span class=&quot;arvobold-R&quot;&gt;&lt;/span&gt; <span class="arvobold-R"></span></p><p>&lt;span class=&quot;arvobold-S&quot;&gt;&lt;/span&gt; <span class="arvobold-S"></span></p><p>&lt;span class=&quot;arvobold-T&quot;&gt;&lt;/span&gt; <span class="arvobold-T"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.arvobold.com">arvobold.com</a>
+    </div>
+</div>
+	</body>
+</html>

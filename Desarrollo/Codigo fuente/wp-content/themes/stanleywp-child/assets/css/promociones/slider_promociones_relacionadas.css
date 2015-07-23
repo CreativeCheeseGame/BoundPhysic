@@ -1,0 +1,191 @@
+#slider_promociones_relacionadas{
+  height: 330px;
+  margin-bottom: 35px;
+}
+
+/* contenedor de background de imagenes de grilla*/
+
+.imageDiscountContainerRelation{
+	height: 80%;
+}
+
+.incluyeGridContainerRelation{
+	height: 20%;
+}
+
+.numberDiscountRelation{
+	background-image: url("/../../../../../../vamosya/wp-content/themes/stanleywp-child/assets/images/promo.png");
+	background-size: cover;
+	background-position: center;
+	width: 70px;
+	height: 70px;
+	float: right;
+	position: relative;
+	right: 7px;
+	top: 10px;
+	text-align: center;
+/*	background: #82C333;
+	width: 60px;
+    height: 60px;
+	float: right;
+	position: relative;
+	right: 15px;
+	top: 20px;
+	text-align: center;
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20eg);*/
+}
+/*
+.numberDiscountRelation:before {
+    content: "";
+    background: #82C333;
+	width: 60px;
+    height: 60px;
+	float: right;
+	position: relative;
+	right: 2px;
+	top: 2px;
+	text-align: center;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135eg);
+}*/
+
+.discountRelation{
+	position: absolute;
+	top: 17px;
+	left: 5px;
+	font-size: 22px;
+	color: #fff;
+/*	position: relative;
+	bottom: 70%;
+	left: 5px;
+	font-size: 22px;
+	float: left;
+	color: #fff;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20eg);*/
+}
+
+.imagesIncluyeRelation{
+	margin-left: 15px;
+}
+
+.imagesIncluyeRelation img.gridIconIncluyeRelation{
+	width: 30px;
+	height: auto;
+	padding-right: 5px;
+}
+
+/**
+ *Responsive
+*/
+
+@media (max-width: 1200px) { 
+
+	#slider_promociones_relacionadas .nextRelationCategorySliderContainer{
+		left: 25px;
+	}
+}
+
+@media (max-width: 991px) { 
+
+	#slider_promociones_relacionadas .nextRelationCategorySliderContainer{
+		left: 45px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 991px){ 
+
+    #slider_promociones_relacionadas .sliderPromotionRelation{
+		left: 26px;
+	}
+}
+
+
+
+@media (max-width: 845px) { 
+
+	#slider_promociones_relacionadas .prevRelationCategorySliderContainer{
+		right: 30px;
+	}
+
+	#slider_promociones_relacionadas .nextRelationCategorySliderContainer{
+		left: 33px;
+	}
+
+	#slider_promociones_relacionadas .sliderPromotionRelation{
+		left: -15px;
+		z-index: 0;
+	}
+	
+}
+
+@media (max-width: 741px) { 
+
+	#slider_promociones_relacionadas .prevRelationCategorySliderContainer{
+		right: 15px;
+	}
+
+	#slider_promociones_relacionadas .nextRelationCategorySliderContainer{
+		left: 18px;
+	}
+
+	#slider_promociones_relacionadas .sliderPromotionRelation{
+		left: -16px;
+	}
+
+}
+
+@media (max-width: 690px) { 
+
+	#slider_promociones_relacionadas .sliderPromotionRelation{
+		left: -20px;
+	}
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 765px) and (max-width: 845px){ 
+
+    #slider_promociones_relacionadas .sliderPromotionRelation{
+		left: 26px;
+	}
+}
+ 
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 764px){ 
+
+	#slider_promociones_relacionadas .prevRelationCategorySliderContainer{
+		right: 15px;
+	}
+
+	#slider_promociones_relacionadas .nextRelationCategorySliderContainer{
+		left: 18px;
+	}
+
+    #slider_promociones_relacionadas .sliderPromotionRelation{
+		left: 6px;
+	}
+}
+
+@media (max-width: 500px) { 
+
+	#slider_promociones_relacionadas .sliderPromotionRelation{
+		left: -26px;
+	}
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500px){ 
+
+    #slider_promociones_relacionadas .sliderPromotionRelation{
+		left: 7px;
+	}
+}
+
+

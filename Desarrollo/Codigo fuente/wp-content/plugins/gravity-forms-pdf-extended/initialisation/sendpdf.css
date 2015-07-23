@@ -1,0 +1,141 @@
+/*Estilos para pdf*/
+
+/*#fechapdf, #idcotizacion, #nameAndLastname, #titlePromotion*/
+
+#logovamosya{
+	padding-bottom: 20px;
+}
+
+#fechapdf, #idcotizacion{
+	font-size: 12px;
+}
+
+#fechapdf{
+	width: 550px;
+	float: left;
+}
+
+#idcotizacion{
+	float: left;
+}
+
+.positionrightestado, .positionrightpendiente{
+	float: left;
+	color: #fff;
+}
+
+.positionrightestado{
+	width: 550px;
+}
+
+.positionrightpendiente{
+	width: 300px;
+}
+
+
+#estadopdf{
+	float: left;
+}
+
+#pendiente{
+	float: left;
+}
+
+#cotizacion{
+	color: red;
+}
+
+#msgConfirm{
+	color: #FFC40F;
+	font-size: 10px;
+}
+
+#respetadotext{
+	width: 517px;
+}
+
+#respetadotext, #fechavencimiento{
+	padding-top: 15px;
+	float: left;
+}
+
+#ciudadPDF{
+	text-transform: uppercase;
+	color: red;
+}
+
+.textcontainer{
+	padding: 15px 0;
+}
+
+.positionpricetotal, #preciototal{
+	padding-top: 15px;
+}
+
+.positionpricetotal{
+	float: left;
+	color: #fff;
+	width: 510px;
+}
+
+#preciototal{
+	float: left;
+	color: red;
+}
+
+td{
+	text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #999;
+}
+
+#asesorViajeText{
+	padding-top: 15px;
+	color: #FFC40F;
+	font-size: 10px;
+}
+
+#titulopaquete{
+	text-align: center;
+	font-size: 14px;
+	color: #2F3D59;
+	padding-top: 15px;
+}
+
+.titulosecciones{
+	color: #2F3D59;
+}
+
+.hotelinfo{
+	color: #CE4D39;
+}
+
+#mensajefinal{
+	color: #2F3D59;
+	font-weight: bold;
+}
+
+#infovamosya{
+	padding-top: 15px;
+}
+
+#vamos{
+	font-weight: bold;
+	color: #5696CD;
+}
+
+#ya{
+	font-weight: bold;
+	color: #FF6500;
+}
+
+.hipervinculo{
+	color: #2B4A7A;
+}
+
+.infoxplain{
+	color: #CE4D39;
+	font-weight: bold;
+}

@@ -1,0 +1,1164 @@
+#container_principal{
+	background: #e4e4e4;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.hidden_padding{
+	padding: 0 !important;
+	color: #000;
+}
+
+.first_section_row{
+	background: #e4e4e4;
+}
+
+.item_detail_first_section{
+	margin: 10px 0 10px 0;
+	background: #E4E4E4;
+	border-radius: 10px;
+}
+
+.promo_detail_image img{
+	padding: 10px 0 10px 0;
+	margin: 0;
+	width: 100%;
+}
+
+/*CITY AND COUNTRY*/
+
+.promo_site_detail{
+	height: 76px;
+	width: 100%;
+}
+
+.promo_city{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	color: #5696CD;
+}
+
+.promo_country{
+	float: left;
+	margin: 5px 5px 0px 10px;
+	font-size: 15px;
+}
+
+.promo_city_image{
+	float: left;
+	margin: 5px;
+}
+
+.promo_site_first{
+	float: left;
+	width: 70%;
+}
+
+.promo_city_description{
+	margin-top: 5px;
+}
+
+/*comparte*/
+.promo_site_second{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.text_comparte{
+	text-align: center;
+
+}
+
+.promo_site_second div{
+	display: inline-block;
+	width: 100%;
+	margin-top: 4%;
+	margin-left: 17%;
+}
+
+.promo_site_second img{
+	display: inline-block;
+}
+
+
+.content-selected-hotel{
+	margin-bottom: 10px;
+}
+
+/*TIPO HABITACION*/
+#type_room_section{
+	padding: 0px 0px 5px 15px;
+	border: 2px solid #1565C0;
+	border-radius: 10px;
+}
+
+#type_room{
+	width: 70%;
+	display: table-cell;
+}
+
+#type_room #title{
+	font-size: 20px;
+	margin-bottom: 12px;
+	margin-top: 11px;	
+}
+
+#content-type-room{
+	display: table;
+	width: 100%;	
+}
+
+#content-type-room div h3{
+	font-size: 12px;
+	margin-top: 0px;	
+}
+
+#content-type-room .simple, #content-type-room .doble, #content-type-room .triple{
+	margin-right: 20px;
+	display: inline-block;
+	width: 95px;
+}
+
+#cant_person{
+	width: 30%;
+	display: table-cell;
+}
+
+#cant_person #textCantPersonas{
+	text-align: center;
+	font-size: 20px;
+	padding-right: 20px;
+	font-weight: 700;
+	color: #333;
+}
+
+#cant_person #container_number_person{
+	height: 40px;
+	margin: 4px auto 4px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+#container_number_person .user_number{
+	float: left;
+	height: 40px;
+	color: rgb(86, 150, 205);
+}
+
+#container_number_person #numero_personas{
+	float: left;
+	font-size: 40px;
+	margin: 8px 0px 0px;
+	color: #5696CD;
+}
+
+
+/*PRICE AND BOOK IT*/
+.price_and_book_it{
+	margin: 10px 0 7px 0;
+	width: 100%;
+	height: 60px;
+}
+
+.price_total_text{
+	display: inline-block;
+	font-size: 20px;
+}
+
+.price_total{
+	float: left;
+	width: 57%;
+	height: 60px;
+}
+
+.price_element{
+	display: inline-block;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 30px;
+	background: #5696CD;
+	color: #fff;
+}
+
+.book_it_section{
+	float: left;
+	width: 43%;
+	text-align: center;
+}
+
+.book_it_section a{
+	width: 210px;
+  	height: 60px;
+	background-color: rgb(255, 101, 0);
+	border-color: rgb(255, 101, 0);
+	font-size: 18px;
+	padding: 16px;
+}
+
+
+.promociones_vendidas{
+	width: 45%;
+	float: left;
+	margin: 10px;
+}
+
+/*VENCIMIENTO*/
+
+.title_vencimiento{
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.vencimiento_faltante{
+	margin: 13px 0;
+	font-size: 12px;
+	float: left
+}
+
+
+/* COMENTARIO FACEBOOK */
+
+#promocion_comentario div{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+/* PLUGIN DE TIEMPO */
+
+.promo_end_section{
+	float: right;
+	height: 60px;
+	width: 50%;
+	/*display: inline-block;*/
+	margin-top: 5px;
+}
+
+#info-watch{
+	text-align: center;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/*margin-top: 5px;*/
+}
+
+#info-watch .reloj{
+	margin: 0;
+	float: left;
+	margin-left: 58px;
+}
+
+#info-watch.vencimiento_faltante {
+	margin: 10px;
+	float: left;
+}
+
+/*MODAL RESERVA*/
+
+#header-custom{
+	text-align: center;
+	background-color: #2F3D59;
+}
+
+#header-custom h4{
+	font-size: 25px;
+	color: #fff;
+}
+
+/*Parte de informacion general*/
+
+#info-promotion-modal, #info-titular-modal{
+	width: 90%;
+	margin: 0px auto;
+}
+
+#info-promotion-modal h5, #info-titular-modal h5{
+	font-weight: 700;
+	color: #2C2727;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#titlemodalpromo{
+	text-align: center;
+	color: #2F3D59 !important;
+}
+
+.fields-promotions{
+	margin-bottom: 10px;
+}
+
+.separator-section{
+	margin: 20px auto;
+	width: 90%;
+	height: 3px;
+	background-color: #E1DEDF;
+}
+
+#content-info-modal div:nth-child(even) {
+    background-color: #E4E6EA;
+}
+
+/*Parte de formulario*/
+
+#modal-custom-position{
+	top: 55px;
+	width: 850px;
+}
+
+#modal-custom-position #gform_wrapper_1{
+	max-width: 100%;
+	padding-left: 5%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield{
+	width: 48%;
+	float: left;
+	clear: none;
+	margin-bottom: 10px;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield .gfield_label{
+	float:left;
+  	margin: 11px 10px 6px 0;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield .ginput_container{
+	height: 33px;
+	margin-top: 5px;
+	width: 73%;
+	float: left;
+ }
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield .ginput_container .medium{
+ 	float: left;
+ 	width: 100%;
+ 	border-radius: 4px;
+ 	border: 1px solid #ccc;
+ }
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield .ginput_container .medium:focus{
+	border: 1px solid #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+ }
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_3 .ginput_container{
+    width: 55%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_8 .ginput_container{
+    width: 48.7%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_8 .ginput_container .charleft{
+    display: none;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_4 .ginput_container{
+    width: 79%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_5 .ginput_container{
+    width: 76.7%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_6 .ginput_container{
+    width: 47%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_6 .ginput_container #input_1_6{
+    width: 75% !important;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_9 .ginput_container{
+    width: 82.4%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_7{
+    width: 100%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_7 .ginput_container{
+    height: auto;
+    width: 94%;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 #field_1_10{
+    display: none !important;
+}
+
+
+#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1{
+	position: relative;
+	top: 55px;
+	left: 81.4%;
+	color: #FFF;
+	background-color: #428BCA;
+	border-color: #357EBD;
+	min-width: 100px;
+	padding: 6px 6px;
+}
+
+#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1:hover{
+	color: #FFF;
+	background-color: #3276B1;
+	border-color: #285E8E;
+}
+
+#btn-hide{
+	display: none;
+}
+
+#btn-close{
+	position: relative;
+	right: 140px;
+}
+
+
+ /*Validation error */
+
+#modal-custom-position .gform_wrapper li.gfield.gfield_error,  #modal-custom-position .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	border: 1px solid #C89797;
+	border-radius: 4px;
+}
+
+#modal-custom-position .gform_wrapper li.gfield_error input[type=email], #modal-custom-position .gform_wrapper li.gfield_error input[type=number], #modal-custom-position .gform_wrapper li.gfield_error input[type=password], #modal-custom-position .gform_wrapper li.gfield_error input[type=tel], #modal-custom-position .gform_wrapper li.gfield_error input[type=text], #modal-custom-position .gform_wrapper li.gfield_error input[type=url], #modal-custom-position .gform_wrapper li.gfield_error textarea {
+  border: 1px solid #790000 !important;
+  border-radius: 4px;
+}
+
+.tooltip-inner {
+    max-width: 500px !important;
+}
+
+/**
+ * Icon Image
+ */
+
+.contentImageIconPromotion{
+	position: absolute;
+	bottom: 135px;
+	padding: 0 6px;
+	width: 555px;
+}
+
+.imgCont{
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.titleIcon{
+	float: left;
+	color: white;
+	margin-top: 10px;
+	text-shadow: 1px 1px black;
+}
+
+.imgIconCont{
+	height: 40px;
+	float: left;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	padding-right: 5px;
+}
+
+.ver-mas-button{
+	color: #1ABC9C !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
+	font-size: 15px !important;
+}
+
+.ver-mas-button:hover{
+	color: #505050 !important;
+}
+
+.title_promociones_relacionadas{
+	font-size: 25px;
+	margin-left: 45px;
+	margin-bottom: 17px;
+	font-weight: bold;	
+}
+
+.promo_site_second .addthis_sharing_toolbox #atstbx a{
+	border-radius: 18px;
+}
+
+#starts_hotel{
+	display: inline-block;
+}
+
+
+/**
+ * add description to basic slider
+ */
+
+.contentDescriptionStyle{
+	position: absolute;
+	width: 555px;
+	/* top: 327px; */
+	bottom: 0px;
+	height: 120px;
+	padding: 9px;
+	padding: 27px;
+	background-color: rgba(47, 61, 89, 0.9);
+}
+
+.textDescriptionStyle{
+	color: white;
+	font-size: 12px;
+}
+
+.textDescriptionStyle button{
+	color: rgb(66, 139, 202) !important;
+	padding: 0px !important;
+	display: inherit;
+}
+
+/*shared facebook*/
+
+#atstbx .at-share-btn.at-svc-facebook span.at4-icon.aticon-facebook{
+	position: relative;
+	right: 4px;	
+}
+
+/*promociones vendidas*/
+
+#texto_cantidad{
+	float: left;
+}
+
+
+#promos_vendidas{
+	float: left;
+	width: 55px;
+	height: 39px;
+	font-size: 30px;
+	font-size: 34px;
+	color: #5696CD;
+	position: relative;
+	left: 18px;
+}
+
+#acercadelaciudad{
+	position: relative;
+	top: 90px;
+}
+
+/*Responsive template promociones*/
+
+@media only screen and (min-width: 300px) and (max-width: 991px){
+
+	/*seccion basic slider*/
+
+	.item_detail_first_section #slider_basic_promociones {
+	    height: 360px;
+	}
+
+	.magicSliderContainer {
+	    width: 100%;
+	}
+
+	.contentImageIconPromotion {
+	    width: 100%;
+	    bottom: 120px;
+	}
+
+	.slideTitleBackgroundContainer .slideTitleTextRight {
+	    font-size: 14px;
+	}
+
+	.titleIcon {
+	    font-size: 12px;
+	}
+
+	img.imgCont {
+		width: 20px;
+		margin-top: 9px;
+	}
+
+	span.nextBasicSliderContainer {
+	    right: 0px;
+	    height: 65%;
+	}
+
+	span.prevBasicSliderContainer {
+	    left: 0px;
+	    height: 65%;
+	}
+
+	.contentDescriptionStyle {
+	    width: 100%;
+	    padding: 10px;
+	}
+
+	.textDescriptionStyle {
+	    font-size: 11px;
+	}
+
+	.ver-mas-button {
+	    font-size: 14px !important;
+	}
+
+	/*fin de seccion basic slider*/
+
+	/*Seccion de calculadora de precios*/
+
+	.promo_site_first {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.promo_site_second {
+	    width: 100%;
+	    height: 80%;
+	}
+
+	.promo_city {
+	    font-size: 20px;
+	}
+
+	.promo_country {
+	    display: inline-block;
+	    float: initial;
+	}
+
+	.promo_city_image {
+	    display: inline-block;
+	    float: initial;
+	}
+
+	.promo_site_second div {
+	    margin: 0px 0px 4px 0px;
+	    padding-left: 5px;
+	}
+
+	#title_hotel_label {
+	    width: 100%;
+	}
+
+	#title_hotel_selected, #starts_hotel{
+		padding-bottom: 10px;
+	}
+
+	/*calculadora de precios*/
+
+	#calculator_section {
+	    min-height: 860px;
+	}
+
+	#type_room #title {
+	    width: 107%;
+	}
+	#cant_person {
+	    position: relative;
+	    top: 91px;
+	    right: 15px;
+	}
+
+	#cant_person #container_number_person {
+	    padding: 0;
+	}
+
+	#type_room_section {
+	    padding: 0px 0px 15px 15px;
+	}
+
+	#content-type-room div h3 {
+	    margin-top: 5px;
+	}
+
+	.price_total_text {
+	    font-size: 18px;
+	}
+
+	.price_element {
+	    font-size: 26px;
+	}
+	.price_total {
+	    width: 100%;
+	}
+
+	.book_it_section {
+	    width: 100%;
+	    padding-top: 15px;
+	}
+
+	#container_cant_and_vent{
+		height: 125px;
+		float: left;
+		padding-top: 15px;
+		width: 100%
+	}
+
+	.promociones_vendidas {
+	    width: 50%;
+	    margin: 0;
+	}
+
+	#texto_cantidad {
+	    text-align: center;
+	    font-size: 13px;
+	}
+
+	#promos_vendidas {
+	    text-align: center;
+	    /*width: 100%;*/
+	    left: 0;
+	}
+
+	#info-watch .reloj {
+	    float: left;
+	    margin: 0px auto;
+	    width: 100%;
+	    margin-left: 0;
+	}
+
+	.fa::before {
+	    margin: 0;
+	}
+
+	.vencimiento_faltante {
+	    margin: 13px auto;
+	    width: 100%;
+	}
+
+	/*Tabs de promocion*/
+
+	.promo_info_tab {
+	    margin-top: 20px;
+	}
+
+	.tabs-style-tzoid nav ul li a::after {
+	    transform: none;
+	    border-radius: 0;
+	}
+
+	.content-wrap {
+	    margin: 0px 17px 0px 18px;
+	    border-radius: 0;
+	}
+
+	.content-wrap section {
+	    padding: 1em 12px;
+	}
+
+	#container-hotel-img {
+	    width: 100%;
+	}
+
+	#container-hotel-img #hotel-map {
+	    width: 100%;
+	}
+
+	#container-info-hotel {
+	    width: 100%;
+	}
+
+	#container-info-hotel .titleHotelContainerInfo {
+	    font-size: 26px;
+	}
+
+	.titleDireccionContainerInfo, .titlePaginawebContainerInfo{
+		font-size: 16px;
+	}
+
+	#wpc-weather {
+	    margin: 0;
+	    padding: 0;
+	}
+
+	#container_weather {
+	    width: 100%;
+	}
+
+	#wpc-weather .today .day {
+	    width: 100%;
+	}
+
+	#wpc-weather .wpc-highlight {
+		float: left;
+		padding-right: 16px;
+	}
+
+	#wpc-weather .today .sun_hours {
+	    width: 100%;
+	}
+
+	#wpc-weather .hours {
+	    width: 100%;
+	}
+
+	#wpc-weather .hours .fifth, #wpc-weather .hours .first, #wpc-weather .hours .fourth, #wpc-weather .hours .second, #wpc-weather .hours .sixth, #wpc-weather .hours .third {
+	    width: 18%;
+	}
+
+	#wpc-weather .forecast .eighth, #wpc-weather .forecast .eleventh, #wpc-weather .forecast .fifteenth, #wpc-weather .forecast .fifth, #wpc-weather .forecast .first, #wpc-weather .forecast .fourteenth, #wpc-weather .forecast .fourth, #wpc-weather .forecast .ninth, #wpc-weather .forecast .second, #wpc-weather .forecast .seventh, #wpc-weather .forecast .sixth, #wpc-weather .forecast .tenth, #wpc-weather .forecast .third, #wpc-weather .forecast .thirteenth, #wpc-weather .forecast .twelfth {
+	    width: 49%;
+	}
+
+	 @media screen and (-webkit-min-device-pixel-ratio:0)
+	 {	
+		.content-wrap {
+		  margin: 0px 18px 0px 18px;
+		  border-radius: 0;
+		}
+
+		.tabs-style-tzoid nav {
+		  padding: 0 18px !important;
+		}
+
+		.tabs nav ul {
+		  background-color: #5696CD;
+		  border-radius: 0;
+		  height: 47px !important;
+		}
+
+	 }
+
+	/*promociones relacionadas*/
+
+	.title_promociones_relacionadas {
+	    margin-left: 0;
+	    text-align: center;
+	}
+
+	/*comentarios facebook*/
+	#promocion_comentario div {
+	    width: 100%;
+	}
+
+	.fb_ltr{
+		width: 100% !important;
+	}
+
+	#promocion_comentario .fb-comments.fb_iframe_widget span{
+		width: 100% !important;
+	}
+
+	/*Modal promociones*/
+
+	#modal-custom-position {
+	    top: 80px;
+	    width: 300px;
+	    margin: 10px auto;
+	}	
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield {
+	    width: 100%;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1 {
+	    left: 95px;
+	}
+
+	#btn-close {
+	    right: 160px;
+	}
+
+	#info-promotion-modal h5{
+	    text-align: center;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 #gform_fields_1 .gfield .ginput_container{
+	    width: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+		/*Para Chrome.*/
+	 @media screen and (-webkit-min-device-pixel-ratio:0)
+	 {	
+		.tabs-style-tzoid nav ul li.tab-current a span, .tabs-style-tzoid nav ul li a span{
+		  display: none;
+		}
+
+	 }
+}
+ 
+@media only screen and (min-width: 360px) and (max-width: 991px){
+
+	.textDescriptionStyle {
+	    font-size: 12px;
+	}
+
+	#title_hotel_label {
+	    padding: 0px 10px;
+	}
+
+	#content-type-room .simple, #content-type-room .doble, #content-type-room .triple{
+		width: 60%;
+	}
+
+	#modal-custom-position {
+	    width: 345px;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1 {
+	    left: 125px;
+	}
+
+	#btn-close {
+	    right: 170px;
+	}
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 991px){
+
+	img.imgCont {
+	    width: 25px;
+	    margin-top: 8px;
+	}
+
+	.titleIcon {
+	    font-size: 14px;
+	}
+
+	.contentDescriptionStyle {
+	    height: 110px;
+	}
+
+	.contentImageIconPromotion {
+	    bottom: 110px;
+	}
+
+	#modal-custom-position {
+	    width: 390px;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1 {
+	    left: 145px;
+	}
+
+	#btn-close {
+	    right: 190px;
+	}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 991px){
+
+	.textDescriptionStyle {
+	    font-size: 14px;
+	}
+
+	img.imgCont {
+	    width: 30px;
+	    margin-top: 5px;
+	}
+
+	#title_hotel_label {
+	    width: auto;
+	}
+
+	.content-selected-hotel #title_hotel_selected {
+	    padding-left: 2px;
+	}
+
+	#content-type-room .simple, #content-type-room .doble, #content-type-room .triple {
+	    width: 90px;
+	}
+
+	#cant_person {
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	}
+
+	#type_room #title {
+	    width: 100%;
+	}
+
+	#cant_person #container_number_person {
+	    padding-left: 20px;
+	}
+
+	.price_total {
+	    width: auto;
+	    padding-left: 15px;
+	}
+
+	.book_it_section {
+	    width: auto;
+	    padding-top: 0;
+	    float: right;
+	}
+
+	#texto_cantidad {
+	    padding-right: 5px;
+	}
+
+	#promos_vendidas, #info-watch .reloj, .vencimiento_faltante {
+	    width: auto;
+	}
+
+	.vencimiento_faltante{
+		padding-left: 15px;
+	}
+
+	#container_cant_and_vent {
+	    height: 80px;
+	    margin: 0px auto;
+	    width: 461px;
+	    float: none;
+	}
+
+	#info-watch {
+	    width: 155px;
+	    margin: 0 auto;
+	}
+
+	.promociones_vendidas {
+	    position: relative;
+	    top: 10px;
+	}
+
+	#calculator_section {
+	    min-height: 570px;
+	}
+
+	.promo_site_second {
+	    text-align: center;
+	}
+
+	.promo_city {
+	    font-size: 26px;
+	    padding-bottom: 2px;
+	}
+
+	.promo_site_first {
+	    padding-bottom: 15px;
+	}
+
+	#container-hotel-img #hotel-map {
+	    width: 384px;
+	}
+
+	#container-info-hotel {
+	    padding-top: 15px;
+	}
+
+	#modal-custom-position {
+	    width: 490px;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1 {
+	    left: 200px;
+	}
+
+	#btn-close {
+	    right: 235px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+	#modal-custom-position {
+	    width: 670px;
+	}
+
+	#modal-custom-position #gform_wrapper_1 #gform_1 .gform_footer #gform_submit_button_1 {
+	    left: 285px;
+	}
+
+	#btn-close {
+	    right: 325px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+	.contentDescriptionStyle {
+	    width: 455px;
+	    padding: 20px;
+	}
+
+	img.imgCont {
+	    width: 30px;
+	    margin-top: 5px;
+	}
+
+	.contentImageIconPromotion {
+	    bottom: 119px;
+	    width: 455px;
+	}
+
+	.promo_site_second div {
+	    margin-left: 0;
+	}
+
+	.price_total {
+	    width: 68%;
+	}
+
+	.book_it_section {
+	    width: 31%;
+	}
+
+	.book_it_section a {
+	    width: 135px;
+	}
+
+	#content-type-room div h3 {
+	    margin-top: 10px;
+	    margin-bottom: 0;
+	}
+
+	.promociones_vendidas {
+	    width: 50%;
+	}
+
+	.promo_end_section {
+	    width: 45%;
+	}
+
+	#info-watch .reloj {
+	    margin: 0px 0px 0px 24px;
+	}
+
+	.content-wrap {
+	    margin: 0px 26px 0px 18px;
+	}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1252px){
+	.promo_site_second div {
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

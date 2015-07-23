@@ -1,0 +1,29 @@
+
+/*CAMBIOS*/
+
+#grid-container{
+	padding-top: 20px;
+	background-color: #E9EBEE;
+	padding-bottom: 50px;
+}
+
+
+#grid-child-collection{
+	background: white;
+	margin-top: 20px;
+}
+
+/*Custom*/
+#containerPostMainCategories{
+	background-color: #E9EBEE;
+/*	padding: 20px;*/
+}
+
+.listCollectionCategories{
+	background-color: #1C2535;
+ 	/*padding: 10px 0 10px 0;*/
+}
+
+.collections-container .title-collection{
+	background-color: #1C2535;
+}

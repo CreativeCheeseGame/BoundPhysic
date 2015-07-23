@@ -1,0 +1,673 @@
+@font-face {
+	font-family: "ArvoBold";
+	src: url("arvo-bold.eot");
+	src: url("arvo-bold.eot#iefix") format("embedded-opentype"),
+	url("arvo-bold.woff") format("woff"),
+	url("arvo-bold.ttf") format("truetype"),
+	url("arvo-bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="arvobold-"]:before, [class*=" arvobold-"]:before,
+[class^="arvobold-"]:after, [class*=" arvobold-"]:after {   
+	font-family: ArvoBold;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.arvobold-A:before {
+	content: "\41";
+}
+.arvobold-B:before {
+	content: "\42";
+}
+.arvobold-C:before {
+	content: "\43";
+}
+.arvobold-D:before {
+	content: "\44";
+}
+.arvobold-E:before {
+	content: "\45";
+}
+.arvobold-F:before {
+	content: "\46";
+}
+.arvobold-G:before {
+	content: "\47";
+}
+.arvobold-H:before {
+	content: "\48";
+}
+.arvobold-I:before {
+	content: "\49";
+}
+.arvobold-J:before {
+	content: "\4a";
+}
+.arvobold-K:before {
+	content: "\4b";
+}
+.arvobold-L:before {
+	content: "\4c";
+}
+.arvobold-M:before {
+	content: "\4d";
+}
+.arvobold-N:before {
+	content: "\4e";
+}
+.arvobold-O:before {
+	content: "\4f";
+}
+.arvobold-P:before {
+	content: "\50";
+}
+.arvobold-Q:before {
+	content: "\51";
+}
+.arvobold-R:before {
+	content: "\52";
+}
+.arvobold-S:before {
+	content: "\53";
+}
+.arvobold-T:before {
+	content: "\54";
+}
+.arvobold-U:before {
+	content: "\55";
+}
+.arvobold-V:before {
+	content: "\56";
+}
+.arvobold-W:before {
+	content: "\57";
+}
+.arvobold-X:before {
+	content: "\58";
+}
+.arvobold-Y:before {
+	content: "\59";
+}
+.arvobold-Z:before {
+	content: "\5a";
+}
+.arvobold-underscore:before {
+	content: "\5f";
+}
+.arvobold-a:before {
+	content: "\61";
+}
+.arvobold-b:before {
+	content: "\62";
+}
+.arvobold-c:before {
+	content: "\63";
+}
+.arvobold-d:before {
+	content: "\64";
+}
+.arvobold-e:before {
+	content: "\65";
+}
+.arvobold-f:before {
+	content: "\66";
+}
+.arvobold-g:before {
+	content: "\67";
+}
+.arvobold-h:before {
+	content: "\68";
+}
+.arvobold-i:before {
+	content: "\69";
+}
+.arvobold-j:before {
+	content: "\6a";
+}
+.arvobold-k:before {
+	content: "\6b";
+}
+.arvobold-l:before {
+	content: "\6c";
+}
+.arvobold-m:before {
+	content: "\6d";
+}
+.arvobold-n:before {
+	content: "\6e";
+}
+.arvobold-o:before {
+	content: "\6f";
+}
+.arvobold-p:before {
+	content: "\70";
+}
+.arvobold-q:before {
+	content: "\71";
+}
+.arvobold-r:before {
+	content: "\72";
+}
+.arvobold-s:before {
+	content: "\73";
+}
+.arvobold-t:before {
+	content: "\74";
+}
+.arvobold-u:before {
+	content: "\75";
+}
+.arvobold-v:before {
+	content: "\76";
+}
+.arvobold-w:before {
+	content: "\77";
+}
+.arvobold-x:before {
+	content: "\78";
+}
+.arvobold-y:before {
+	content: "\79";
+}
+.arvobold-z:before {
+	content: "\7a";
+}
+.arvobold-comma:before {
+	content: "\2c";
+}
+.arvobold-hyphen:before {
+	content: "\2d";
+}
+.arvobold-period:before {
+	content: "\2e";
+}
+.arvobold-zero:before {
+	content: "\30";
+}
+.arvobold-one:before {
+	content: "\31";
+}
+.arvobold-two:before {
+	content: "\32";
+}
+.arvobold-three:before {
+	content: "\33";
+}
+.arvobold-four:before {
+	content: "\34";
+}
+.arvobold-five:before {
+	content: "\35";
+}
+.arvobold-six:before {
+	content: "\36";
+}
+.arvobold-seven:before {
+	content: "\37";
+}
+.arvobold-eight:before {
+	content: "\38";
+}
+.arvobold-nine:before {
+	content: "\39";
+}
+.arvobold-exclam:before {
+	content: "\21";
+}
+.arvobold-percent:before {
+	content: "\25";
+}
+.arvobold-ampersand:before {
+	content: "\26";
+}
+.arvobold-quotesingle:before {
+	content: "\27";
+}
+.arvobold-quotedbl:before {
+	content: "\22";
+}
+.arvobold-parenleft:before {
+	content: "\28";
+}
+.arvobold-parenright:before {
+	content: "\29";
+}
+.arvobold-asterisk:before {
+	content: "\2a";
+}
+.arvobold-plus:before {
+	content: "\2b";
+}
+.arvobold-slash:before {
+	content: "\2f";
+}
+.arvobold-at:before {
+	content: "\40";
+}
+.arvobold-bracketleft:before {
+	content: "\5b";
+}
+.arvobold-backslash:before {
+	content: "\5c";
+}
+.arvobold-bracketright:before {
+	content: "\5d";
+}
+.arvobold-bullet:before {
+	content: "\2022";
+}
+.arvobold-paragraph:before {
+	content: "\b6";
+}
+.arvobold-germandbls:before {
+	content: "\df";
+}
+.arvobold-registered:before {
+	content: "\ae";
+}
+.arvobold-copyright:before {
+	content: "\a9";
+}
+.arvobold-guillemotleft:before {
+	content: "\ab";
+}
+.arvobold-guillemotright:before {
+	content: "\bb";
+}
+.arvobold-ellipsis:before {
+	content: "\2026";
+}
+.arvobold-endash:before {
+	content: "\2013";
+}
+.arvobold-emdash:before {
+	content: "\2014";
+}
+.arvobold-quotedblleft:before {
+	content: "\201c";
+}
+.arvobold-quotedblright:before {
+	content: "\201d";
+}
+.arvobold-quoteleft:before {
+	content: "\2018";
+}
+.arvobold-quoteright:before {
+	content: "\2019";
+}
+.arvobold-guilsinglleft:before {
+	content: "\2039";
+}
+.arvobold-guilsinglright:before {
+	content: "\203a";
+}
+.arvobold-plusminus:before {
+	content: "\b1";
+}
+.arvobold-minus:before {
+	content: "\2212";
+}
+.arvobold-numbersign:before {
+	content: "\23";
+}
+.arvobold-less:before {
+	content: "\3c";
+}
+.arvobold-equal:before {
+	content: "\3d";
+}
+.arvobold-greater:before {
+	content: "\3e";
+}
+.arvobold-question:before {
+	content: "\3f";
+}
+.arvobold-dollar:before {
+	content: "\24";
+}
+.arvobold-braceleft:before {
+	content: "\7b";
+}
+.arvobold-bar:before {
+	content: "\7c";
+}
+.arvobold-braceright:before {
+	content: "\7d";
+}
+.arvobold-asciitilde:before {
+	content: "\7e";
+}
+.arvobold-sterling:before {
+	content: "\a3";
+}
+.arvobold-cent:before {
+	content: "\a2";
+}
+.arvobold-multiply:before {
+	content: "\d7";
+}
+.arvobold-colon:before {
+	content: "\3a";
+}
+.arvobold-semicolon:before {
+	content: "\3b";
+}
+.arvobold-circumflex:before {
+	content: "\2c6";
+}
+.arvobold-tilde:before {
+	content: "\2dc";
+}
+.arvobold-macron:before {
+	content: "\af";
+}
+.arvobold-breve:before {
+	content: "\2d8";
+}
+.arvobold-cedilla:before {
+	content: "\b8";
+}
+.arvobold-hungarumlaut:before {
+	content: "\2dd";
+}
+.arvobold-ogonek:before {
+	content: "\2db";
+}
+.arvobold-caron:before {
+	content: "\2c7";
+}
+.arvobold-degree:before {
+	content: "\b0";
+}
+.arvobold-grave:before {
+	content: "\60";
+}
+.arvobold-acute:before {
+	content: "\b4";
+}
+.arvobold-dieresis:before {
+	content: "\a8";
+}
+.arvobold-ring:before {
+	content: "\2da";
+}
+.arvobold-dotaccent:before {
+	content: "\2d9";
+}
+.arvobold-dotlessi:before {
+	content: "\131";
+}
+.arvobold-AE:before {
+	content: "\c6";
+}
+.arvobold-ae:before {
+	content: "\e6";
+}
+.arvobold-thorn:before {
+	content: "\fe";
+}
+.arvobold-Thorn:before {
+	content: "\de";
+}
+.arvobold-onesuperior:before {
+	content: "\b9";
+}
+.arvobold-twosuperior:before {
+	content: "\b2";
+}
+.arvobold-threesuperior:before {
+	content: "\b3";
+}
+.arvobold-ordmasculine:before {
+	content: "\ba";
+}
+.arvobold-ordfeminine:before {
+	content: "\aa";
+}
+.arvobold-currency:before {
+	content: "\a4";
+}
+.arvobold-logicalnot:before {
+	content: "\ac";
+}
+.arvobold-mu:before {
+	content: "\b5";
+}
+.arvobold-periodcentered:before {
+	content: "\b7";
+}
+.arvobold-exclamdown:before {
+	content: "\a1";
+}
+.arvobold-questiondown:before {
+	content: "\bf";
+}
+.arvobold-asciicircum:before {
+	content: "\5e";
+}
+.arvobold-brokenbar:before {
+	content: "\a6";
+}
+.arvobold-fraction:before {
+	content: "\2044";
+}
+.arvobold-onequarter:before {
+	content: "\bc";
+}
+.arvobold-onehalf:before {
+	content: "\bd";
+}
+.arvobold-threequarters:before {
+	content: "\be";
+}
+.arvobold-Oslash:before {
+	content: "\d8";
+}
+.arvobold-oslash:before {
+	content: "\f8";
+}
+.arvobold-Eth:before {
+	content: "\d0";
+}
+.arvobold-eth:before {
+	content: "\f0";
+}
+.arvobold-Agrave:before {
+	content: "\c0";
+}
+.arvobold-Aacute:before {
+	content: "\c1";
+}
+.arvobold-Acircumflex:before {
+	content: "\c2";
+}
+.arvobold-Atilde:before {
+	content: "\c3";
+}
+.arvobold-Adieresis:before {
+	content: "\c4";
+}
+.arvobold-Aring:before {
+	content: "\c5";
+}
+.arvobold-Egrave:before {
+	content: "\c8";
+}
+.arvobold-Eacute:before {
+	content: "\c9";
+}
+.arvobold-Edieresis:before {
+	content: "\cb";
+}
+.arvobold-Ecircumflex:before {
+	content: "\ca";
+}
+.arvobold-Ccedilla:before {
+	content: "\c7";
+}
+.arvobold-Ccaron:before {
+	content: "\10c";
+}
+.arvobold-Igrave:before {
+	content: "\cc";
+}
+.arvobold-Iacute:before {
+	content: "\cd";
+}
+.arvobold-Icircumflex:before {
+	content: "\ce";
+}
+.arvobold-Idieresis:before {
+	content: "\cf";
+}
+.arvobold-Ntilde:before {
+	content: "\d1";
+}
+.arvobold-Ograve:before {
+	content: "\d2";
+}
+.arvobold-Oacute:before {
+	content: "\d3";
+}
+.arvobold-Ocircumflex:before {
+	content: "\d4";
+}
+.arvobold-Otilde:before {
+	content: "\d5";
+}
+.arvobold-Odieresis:before {
+	content: "\d6";
+}
+.arvobold-Uacute:before {
+	content: "\da";
+}
+.arvobold-Ucircumflex:before {
+	content: "\db";
+}
+.arvobold-Udieresis:before {
+	content: "\dc";
+}
+.arvobold-Yacute:before {
+	content: "\dd";
+}
+.arvobold-agrave:before {
+	content: "\e0";
+}
+.arvobold-aacute:before {
+	content: "\e1";
+}
+.arvobold-acircumflex:before {
+	content: "\e2";
+}
+.arvobold-atilde:before {
+	content: "\e3";
+}
+.arvobold-adieresis:before {
+	content: "\e4";
+}
+.arvobold-aring:before {
+	content: "\e5";
+}
+.arvobold-egrave:before {
+	content: "\e8";
+}
+.arvobold-eacute:before {
+	content: "\e9";
+}
+.arvobold-edieresis:before {
+	content: "\eb";
+}
+.arvobold-ecircumflex:before {
+	content: "\ea";
+}
+.arvobold-ccedilla:before {
+	content: "\e7";
+}
+.arvobold-ccaron:before {
+	content: "\10d";
+}
+.arvobold-iacute:before {
+	content: "\ed";
+}
+.arvobold-igrave:before {
+	content: "\ec";
+}
+.arvobold-icircumflex:before {
+	content: "\ee";
+}
+.arvobold-idieresis:before {
+	content: "\ef";
+}
+.arvobold-ntilde:before {
+	content: "\f1";
+}
+.arvobold-ograve:before {
+	content: "\f2";
+}
+.arvobold-oacute:before {
+	content: "\f3";
+}
+.arvobold-ocircumflex:before {
+	content: "\f4";
+}
+.arvobold-otilde:before {
+	content: "\f5";
+}
+.arvobold-odieresis:before {
+	content: "\f6";
+}
+.arvobold-uacute:before {
+	content: "\fa";
+}
+.arvobold-ucircumflex:before {
+	content: "\fb";
+}
+.arvobold-udieresis:before {
+	content: "\fc";
+}
+.arvobold-yacute:before {
+	content: "\fd";
+}
+.arvobold-yen:before {
+	content: "\a5";
+}
+.arvobold-section:before {
+	content: "\a7";
+}
+.arvobold-Ugrave:before {
+	content: "\d9";
+}
+.arvobold-ugrave:before {
+	content: "\f9";
+}
+.arvobold-Scaron:before {
+	content: "\160";
+}
+.arvobold-scaron:before {
+	content: "\161";
+}
+.arvobold-Zcaron:before {
+	content: "\17d";
+}
+.arvobold-zcaron:before {
+	content: "\17e";
+}
+.arvobold-Ydieresis:before {
+	content: "\178";
+}
+.arvobold-ydieresis:before {
+	content: "\ff";
+}
+.arvobold-divide:before {
+	content: "\f7";
+}
+.arvobold-twoinferior:before {
+	content: "\2082";
+}
+.arvobold-fourinferior:before {
+	content: "\2084";
+}
+.arvobold-quotedblbase:before {
+	content: "\201e";
+}
